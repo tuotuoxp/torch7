@@ -1,9 +1,11 @@
 # Find the TH includes and library
 #
 # TH_INCLUDE_DIR -- where to find the includes
+# TH_LIB_DIR -- where to find the libraries
 # TH_LIBRARIES -- list of libraries to link against
 # TH_FOUND -- set to 1 if found
 
 SET(TH_FOUND 1)
 SET(TH_INCLUDE_DIR "@TH_INCLUDE_DIR@")
+SET(TH_LIB_DIR "@TH_LIB_DIR@")
 SET(TH_LIBRARIES "@TH_LIBRARIES@")
